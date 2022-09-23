@@ -42,9 +42,15 @@ section#login {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-section > div#image-login {
+section#login > div#image-login {
+    display: block;
     background: #5f2c82 url("../imagens/login-image.jpg") no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+}
+
+section#login > div#form-login {
+    display: block;
+    padding: 10px;
 }
