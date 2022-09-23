@@ -16,7 +16,7 @@ lilás: #5f2c82
     font-family: "Montserrat", sans-serif;
 }
 
-/* Mobile */
+/* MOBILE FIRST */
 body, html {
     background-color: #5f2c82;
     height: 100vh;
@@ -40,7 +40,8 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    transition: width .3s, height .3s;
+    
+    transition: width .1s, height .1s;
     transition-timing-function: ease;
 }
 
@@ -55,4 +56,13 @@ section#login > div#image-login {
 section#login > div#form-login {
     display: block;
     padding: 10px;
+}
+
+div#form-login > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form-login > p {
+    font-size: .8em;
 }
