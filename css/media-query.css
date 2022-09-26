@@ -8,6 +8,7 @@
     
     section#login {
         width: 80vw;
+        height: 330px;
     }
     
     section#login > div#image-login {
@@ -30,7 +31,7 @@
     }
 }
 
-/* BIG SCREENS */
+/* DESKTOP */
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -38,6 +39,7 @@
     
     section#login {
         width: 950px;
+        height: 380px;
     }
     
     section#login > div#image-login {
@@ -56,6 +58,6 @@
     }
     
     div#form-login > p {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 }
